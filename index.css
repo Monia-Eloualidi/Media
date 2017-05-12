@@ -1,0 +1,164 @@
+html, body {
+	height: 100%;
+}
+
+#header
+{
+  height:25px;
+  background: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family:"garamond";
+  font-size: 18px;
+  color: white;
+}
+
+.margin
+{
+  margin-left: 1160px;
+}
+
+#header2
+{
+  height: 100px;
+  background: #002740;
+  font-family:"garamond";
+  font-size: 60px;
+  color:white;
+  font-weight: bolder;
+}
+
+.margin1
+{
+  margin-left: 10px;
+}
+
+#header3
+{
+  height:700px;
+  background: white;
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  text-align:center
+
+}
+
+.gauche
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: #C0C0C0;
+  font-family:"garamond";
+  font-weight: bolder;
+  font-size: 30px;
+
+}
+
+.centre
+{
+  width: 60%;
+  height:100%auto;
+  float: left;
+  background-color: white;
+}
+
+@keyframes slider {
+	0%{
+		left: 0;
+	}
+	50%{
+		left: -100%;
+	}
+	75%{
+		left: -200%;
+	}
+	100%{
+		left: 0;
+	}
+}
+#slider{
+	overflow: hidden;
+}
+
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+
+.droite
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: #C0C0C0;
+  font-family:"garamond";
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+#menu
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+  padding: 0px;
+  margin:0px;
+  list-style-type: none;
+  background-color:  #004F5D;
+}
+
+li
+{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  border-right: 1px;
+  text-align: center;
+  line-height: 40px;
+}
+
+li:hover
+{
+  background-color: #000000;
+}
+
+li a
+{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family:"garamond";
+}
+
+
+
+.meteo{
+	margin-left: 20%;
+}
+
+#header4
+{
+	height:50px;
+  background: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family:"garamond";
+  font-size: 18px;
+  color: white;
+}
